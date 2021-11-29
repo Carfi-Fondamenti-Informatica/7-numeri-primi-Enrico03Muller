@@ -13,13 +13,14 @@ int funzione (int n){
     return 1;
 }
 
-int test (int n){
-    int i = 2;
+int test (int n, int i){
     int temp = n % i;
     if (temp == 0 && i != n){
         return 0;
-    }else{
-        test(n-1);
+    }else if (temp == 0 && i == n){
+        return 1;
     }
-    return 1;
+    else {
+        test(n, i + 1);
+    }
 }
