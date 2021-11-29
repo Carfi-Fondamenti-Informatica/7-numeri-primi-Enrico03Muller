@@ -5,5 +5,5 @@
 #ifndef ESERCIZIO7_0_LIB_H
 #define ESERCIZIO7_0_LIB_H
 int funzione (int);
-int test (int);
+int test (int, int);
 #endif //ESERCIZIO7_0_LIB_H
