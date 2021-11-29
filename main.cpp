@@ -4,7 +4,7 @@ using namespace std;
 
 int main() {
     int n;
-    cout << "Inserire un numero: " << endl;
+    //cout << "Inserire un numero: " << endl;
     cin >> n;
     if (n <= 1){
         cout << "numero non primo";
