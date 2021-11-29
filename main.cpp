@@ -10,7 +10,7 @@ int main() {
         cout << "numero non primo";
     }else {
         if (funzione(n) == 1) {
-            cout << "numero primo";
+            cout << "Numero Primo " n;
         } else {
             cout << "numero non primo";
         }
