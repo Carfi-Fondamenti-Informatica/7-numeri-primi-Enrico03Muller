@@ -3,7 +3,7 @@
 //
 
 
-/*int funzione (int n){
+int funzione (int n){
     for (int i = 2; i <= n; i++){
         int temp = n % i;
         if (temp == 0 && i != n){
@@ -11,7 +11,7 @@
         }
     }
     return 1;
-}*/
+}
 
 int test (int n){
     int i = 2;
